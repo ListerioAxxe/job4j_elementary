@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void WhenX10X22Y10Y20() {
+    public void When00to20then2() {
         int x1 = 0;
         int x2 = 2;
         int y1 = 0;
@@ -17,7 +17,7 @@ public class PointTest {
         Assert.assertEquals(exp, rsl, 0.01);
     }
     @Test
-    public void WhenX11X21Y11Y21Then0 () {
+    public void When11to11then0 () {
         int x1 = 1;
         int x2 = 1;
         int y1 = 1;
@@ -27,7 +27,7 @@ public class PointTest {
         Assert.assertEquals(rsl, exp,0.01);
     }
     @Test
-    public void WhenX11X22Y11Y22Then1 () {
+    public void When12to12then1 () {
         int x1 = 1;
         int x2 = 2;
         int y1 = 1;
