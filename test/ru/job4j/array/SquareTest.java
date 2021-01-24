@@ -7,10 +7,10 @@ import static org.junit.Assert.assertThat;
 public class SquareTest {
 
     @Test
-    public void whenBound4Then0149() {
-        int bound = 4;
+    public void whenBound4Then014916() {
+        int bound = 5;
         int[] rst = Square.calculate(bound);
-        int[] exp = new int[] {0, 1, 4, 9};
+        int[] exp = new int[] {0, 1, 4, 9, 16};
         assertThat(rst, is(exp));
 
 
