@@ -14,9 +14,9 @@ public class PointTest {
     public void pointTest1() {
         Point first = new Point(0, 0);
         Point second = new Point(0, 2);
-        Point rsl = new Point(first, second);
+        double rsl = 2;
         double dist = first.distance(second);
-        assertThat(dist, rsl);
+        Assert.assertEquals(dist, rsl, 0.01);
 
     }
 
