@@ -10,5 +10,10 @@ public class Max {
         return max(left, max(right, middle));
     }
 
+    public int max(int left, int right, int middle, int back) {
+        return max(back, max(left, max(right, middle)));
+
+    }
+
 
 }

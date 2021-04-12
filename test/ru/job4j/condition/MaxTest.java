@@ -19,4 +19,16 @@ public class MaxTest {
         int rsl = max(left, max(middle, right));
         assertEquals(exp, rsl);
     }
+
+    @Test
+    public void testMax4() {
+        int left = 2;
+        int middle = 3;
+        int right = 4;
+        int back = 5;
+        int exp = 5;
+        int rsl = max(back, max(left, max(right, middle)));
+        assertEquals(exp, rsl);
+    }
+
 }
